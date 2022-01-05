@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(78, 72, 72);
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(117, 248, 215);
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    background-size: cover;
+}
+
+
+.card {
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 2.5em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 250px;
+    margin: 1em;
+    height: 40%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.6em;
+    border-radius: 7px;
+    background-color: white;
+    font-family: inherit;
+    font-size: 80%;
+    width: 100%;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    outline: solid;
+    outline-width: 2px;
+    outline-color:rgb(78, 72, 72);
+    margin-left: 1em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: rgb(117, 248, 215);
+}
+
+.button:hover {
+    color: white;
+}
+
+h2 { 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.high-temp {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.low-temp {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.forecast {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.humidity {
+    margin-top: 30px;
+}
